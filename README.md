@@ -16,7 +16,11 @@ casos testear dentro de cada funcionalidad.
 
 # Casos de prueba requeridos:
 
-● Login.
+ Login.
+    Select login option 
+      Loging landing page
+        
+
 ● Creación de un nuevo repositorio.
 ● Edición del profile.
 ● Hacer Watch de repositorios.
