@@ -16,14 +16,12 @@ casos testear dentro de cada funcionalidad.
 
 # Casos de prueba requeridos:
 
- Login.
-    Select login option 
-      Loging landing page
-        
-
-● Creación de un nuevo repositorio.
-● Edición del profile.
-● Hacer Watch de repositorios.
+ Login.   
+ Select login option 
+ Loging landing page
+ Creación de un nuevo repositorio.
+ Edición del profile.
+ Hacer Watch de repositorios.
 
 Al finalizar, deberias dejar el repositorio subido en github también, con un readme
 adecuado para que podamos acceder y correrlo en nuestro ambiente.
