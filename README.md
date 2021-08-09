@@ -19,6 +19,10 @@ casos testear dentro de cada funcionalidad.
  Login.   
  Select login option 
  Loging landing page
+ Enter wrong user name and login
+ Enter wrong user password and login
+ Select login with user and passwords field empty
+ Enter correct user and correct password for that user and login
  Creación de un nuevo repositorio.
  Edición del profile.
  Hacer Watch de repositorios.
