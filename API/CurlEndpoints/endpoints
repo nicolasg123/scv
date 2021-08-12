@@ -1,0 +1,28 @@
+Ver reputacion
+
+curl -v -H "Accept:application/json" -H "Content-type:application/json" -X GET  https://developer.uber.com/api/v1/reputations -u 'user1@developer.uber.com'
+
+Add reputation
+
+curl -d '{"ID":"1", "userCreatorID":"1", "userReceptorID":"2", "Description":"description", "Stars":"4"} '-H "Accept:application/json" -H "Content-type:application/json" -X POST  https://developer.uber.com/api/v1/user/reputation
+
+Log in
+
+curl -X POST -i -H "Content-type:application/json" https://developer.uber.com/api/v1/user/login -d 
+    '
+    {
+        "name":"user1",
+        "password":"xxxx"
+    }
+    '
+
+Log out
+curl -X POST -i -H "Content-type:application/json" https://developer.uber.com/api/v1/user/logout -d 
+    '
+    {
+        "name":"user1",
+        "password":"xxxx"
+    }
+    '
+Modify/Update reputation
+curl -X PUT -H "Authorization: Token <your_64_char_api_key>" -H "Content-Type: application/json" -d '{ "userCreatorID": "1", "userReceptorID": "2", "Description":"Description","Stars":"5"}' "https://developer.uber.com/api/v1/user/reputations/:id/"
