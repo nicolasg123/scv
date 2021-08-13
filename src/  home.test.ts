@@ -22,5 +22,6 @@ it("TestCases", async () => {
     await page.fill('[name="login"]', "nicolas.grossi@gmail.com");
     await page.fill('[name="password"]', "nico140778NCG");
     await page.click('text=New');
+    await page.click('xpath=//*[@id="repository_name"]');
   });
     
