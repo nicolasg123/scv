@@ -1,0 +1,30 @@
+{
+  "name": "scv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest.config.js",
+  "scripts": {
+    "test": "jest",
+    "test.watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasg123/scv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasg123/scv/issues"
+  },
+  "homepage": "https://github.com/nicolasg123/scv#readme",
+  "dependencies": {
+    "playwright": "^1.13.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "jest-playwright-preset": "^1.7.0",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  }
+}
