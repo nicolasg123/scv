@@ -23,3 +23,5 @@
 hs_err_pid*
 # lock 
 package-lock.json
+# ignore node modules
+*node_modules/*
