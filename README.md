@@ -8,8 +8,6 @@ El objetivo de este ejercicio es generar set de pruebas automatizadas implementa
 con Cucumber en Ruby. El website a testear es github.com, por lo cual vas a tener que crear
 un usuario nuevo para usar sus credenciales en la suite de test.
 
-### Nicolasg: No se Cucumber, Ni ruby
-
 Los casos de prueba que se piden a continuación son una guía para acotar qué
 funcionalidades nos interesa que estén testeadas, pero tenés total libertad para elegir qué
 casos testear dentro de cada funcionalidad.
